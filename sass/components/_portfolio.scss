@@ -1,0 +1,72 @@
+.portfolio p {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.portfolio-section {
+  padding-top: 94px;
+}
+.portfolio-text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+.portfolio-title {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-list .portfolio-title {
+  text-align: left;
+}
+.port-name {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.port-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.port-btn li:not(:last-child) {
+  margin-right: 8px;
+}
+.port-flex {
+  margin-right: 30px;
+}
+.port-flex:nth-child(3n) {
+  margin-right: 0;
+}
+.port-flex {
+  border-top: none;
+  border: 1px solid #eeeeee;
+  width: 370px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+}
+.port-flex:nth-child(-n + 6) {
+  margin-bottom: 30px;
+}
+.list .port-btn {
+  margin-bottom: 50px;
+}

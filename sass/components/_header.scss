@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+  }
+.studio-header {
+    color: #000000;
+  }
+  .name-header {
+    margin-bottom: 10px;
+  }
+  .head-border {
+    border-bottom: 1px solid #ececec;
+  }
+  .mail-icon {
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+    margin-right: 10px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .tel-icon {
+    width: 10px;
+    height: 16px;
+    fill: #757575;
+    margin-right: 10px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .head-border {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+  }
