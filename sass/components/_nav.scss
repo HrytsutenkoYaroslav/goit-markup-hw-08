@@ -13,7 +13,13 @@
         margin-right: 0;
       }
       & .link {
-        color: var(--title-text-color);
+        
+        display: none;
+        
+
+        @media screen and (min-width:$tablet) { 
+          
+          color: var(--title-text-color);
         display: block;
         padding-top: 32px;
         padding-bottom: 32px;
@@ -21,6 +27,7 @@
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
       }
       & .link:hover {
         color: var(--accent-color);
@@ -42,11 +49,21 @@
         bottom: 0;
         left: 0;
       }
-  }
+      
+      
+      
+  
+    }
   
   .auth-nav {
-    display: flex;
+    display: none;
+    
+
+    @media screen and (min-width:$tablet) { 
+      display: flex;
     margin-left: auto;
+      
+    }
   }
   .auth-nav .item + .item {
     margin-left: 50px;

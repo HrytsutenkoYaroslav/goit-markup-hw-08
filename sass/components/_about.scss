@@ -19,5 +19,14 @@
   .about-list {
     display: flex;
     gap: 30px;
+
+    @media screen and (max-width:767.8px) { 
+      display: inline;
+      
+    }
+    @media screen and (max-width:px) { 
+      
+      
+    }
   }
   
