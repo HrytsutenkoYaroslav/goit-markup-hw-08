@@ -1,5 +1,6 @@
 .team {
     background-color: #f5f4fa;
+    
   }
   .team h3 {
     font-weight: 500;
@@ -27,6 +28,10 @@
   .team-list {
     display: flex;
     gap: 30px;
+    @media screen and (max-width:767.8px) { 
+      display: inline;
+      
+    }
   }
   .work-header {
     margin-top: 0px;
@@ -50,5 +55,6 @@
     justify-content: center;
     border-radius: 4px;
 
+    
     
   }

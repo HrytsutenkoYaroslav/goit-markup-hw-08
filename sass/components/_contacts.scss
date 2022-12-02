@@ -58,8 +58,17 @@
   }
   .top-contact {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    
+    
+    @media screen and (min-width:$desktop) {
+      display: flex;
+      align-items: center;
+      
+    }
   }
+
   
   
   
