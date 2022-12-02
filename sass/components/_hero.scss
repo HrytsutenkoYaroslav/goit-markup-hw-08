@@ -11,6 +11,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+    
   }
   .hero {
     background-color: #2f303a;
@@ -37,13 +38,12 @@
   }
   
   .hero {
-    height: 400px; 
-    min-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    justify-content: center;
+   margin: 0 auto;
     text-align: center;
     padding: 118px 0;
-
+max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -1,6 +1,8 @@
 .section {
     padding-top: 60px;
     padding-bottom: 06px;
+    display: block;
+    margin: 0 auto;
 
     @media screen and (min-width:1200px) { 
       padding-top: 94px;

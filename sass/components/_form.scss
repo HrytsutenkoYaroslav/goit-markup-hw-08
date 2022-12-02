@@ -109,7 +109,9 @@
     text-transform: uppercase;
   
     color: #ffffff;
-  }
+    @media screen and (max-width: 1190px) {
+      text-align: center;
+  }}
   .form {
     display: flex;
     align-items: flex-end;

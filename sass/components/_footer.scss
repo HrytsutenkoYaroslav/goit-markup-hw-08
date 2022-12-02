@@ -10,8 +10,8 @@
   display: flex;
 
   
-
 }
+
 .footer-header {
   font-weight: 700;
   font-size: 14px;
@@ -26,9 +26,10 @@
   display: flex;
   align-items: baseline;
 
-  @media screen and (max-width:767) { 
+  @media screen and (max-width:1199px) { 
     display: flex;
-    flex-direction: column;
+flex-direction: column;
+flex-wrap: wrap;
     
   }
 }
