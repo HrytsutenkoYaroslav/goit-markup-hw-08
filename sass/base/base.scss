@@ -3,7 +3,7 @@ body {
     color: var(--primary-text-color);
     font-family: "Roboto", "Arial", sans-serif;
     padding-top: 83px;
-
+    
     @media screen and (max-width:767.8px) {
       padding-top: 60px;
     }
@@ -44,10 +44,10 @@ body {
   .li-width {
 width: 450px;
 
-    @media screen and (min-width:$tablet){
+    @media screen and (min-width:768px){
       width: 354px;
     }
-    @media screen and (min-width:$desktop){
+    @media screen and (min-width:1200px){
     width: 270px;}
   }
 

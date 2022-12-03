@@ -11,17 +11,13 @@ $desktop:1200px;
   
 
   @media screen and (min-width:$mobile) { 
-    width: $mobile;
-    display: block;
-    margin-left: auto;
-    margin-right: auto ;
+    min-width: $mobile;
+   
     
   }
   @media screen and (min-width:$tablet) { 
     width: $tablet;
-    display: block;
-    margin-left: auto;
-    margin-right: auto ;
+    
     
     
   }
@@ -29,9 +25,7 @@ $desktop:1200px;
 
   @media screen and (min-width:$desktop) { 
     width: $desktop;
-    display: block;
-    margin-left: auto;
-    margin-right: auto ;
+    
     
   }
   

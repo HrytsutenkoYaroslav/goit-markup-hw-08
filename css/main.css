@@ -66,7 +66,17 @@ ul {
 }
 
 .li-width {
-  width: 270px;
+  width: 450px;
+}
+@media screen and (min-width: 768px) {
+  .li-width {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .li-width {
+    width: 270px;
+  }
 }
 
 img {
@@ -84,26 +94,17 @@ img {
 }
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -632,8 +633,6 @@ img {
 
 .about {
   padding-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
 }
 @media screen and (min-width: 768px) {
   .about {
@@ -644,7 +643,8 @@ img {
 }
 @media screen and (max-width: 767.8px) {
   .about {
-    padding-left: -40px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -654,16 +654,20 @@ img {
 }
 @media screen and (max-width: 1199.8px) {
   .about-list {
-    width: 100%;
+    max-width: 354px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 30px;
   }
 }
 @media screen and (max-width: 767.8px) {
   .about-list {
-    width: 100%;
+    max-width: 450px;
+    display: flex;
     justify-content: center;
     text-align: center;
   }
@@ -738,7 +742,7 @@ img {
 }
 
 .work-div {
-  width: 100%;
+  width: 450px;
   height: 120px;
   background-color: #f5f4fa;
   display: flex;
@@ -746,20 +750,9 @@ img {
   justify-content: center;
   border-radius: 4px;
 }
-@media screen and (min-width: 480px) {
-  .work-div {
-    width: 450px;
-    height: 120px;
-    background-color: #f5f4fa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-  }
-}
 @media screen and (min-width: 768px) {
   .work-div {
-    width: 100%;
+    width: 354px;
     height: 120px;
     background-color: #f5f4fa;
     display: flex;
@@ -772,7 +765,6 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .work-div {
-    width: 1200px;
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;
