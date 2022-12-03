@@ -113,7 +113,11 @@
       text-align: center;
   }}
   .form {
-    display: flex;
-    align-items: flex-end;
+    
+
+    @media screen and (min-width:1200px) { 
+     display: flex;
+     align-items: flex-end;
+    }
   }
   

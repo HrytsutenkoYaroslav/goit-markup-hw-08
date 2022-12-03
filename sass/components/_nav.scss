@@ -1,11 +1,11 @@
 .nav {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    display: flex;
-    align-items: center;
-   
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+   margin-left: 93px;
     & li {
         margin-right: 50px;
         
@@ -57,39 +57,11 @@
   
     }
   
-  .auth-nav {
-    display: none;
-
-    @media screen and (max-width: 1199px) {
-      width: 100%;
-      margin-top: 2px;
-  margin-left: auto;
-    }
-  
-  
-    @media screen and (min-width: $tablet) {
-      width: 100%;
+    .auth-nav {
       display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      margin-left: auto;
-  
+      margin-left: 93px;
     }
-  
-    @media screen and (min-width: $desktop) {
-      flex-direction: row;
+    .auth-nav .item + .item {
+      margin-left: 50px;
     }
-  }
-
-  .auth-nav .item + .item {
-    margin-left: 50px;
-    @media screen and (max-width: 1199px) {
-      width: 100%;
-      margin-left: auto;
-    }
-  }
-  .nav .list {margin-left: 93px;
-  
    
-}
- 

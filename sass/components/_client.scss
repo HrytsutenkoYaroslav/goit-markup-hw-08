@@ -28,6 +28,14 @@
     justify-content: center;
       
     }
+    @media screen and (max-width:1199.8px) { 
+      display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+      
+    }
+
   }
   .client-link {
     display: flex;
