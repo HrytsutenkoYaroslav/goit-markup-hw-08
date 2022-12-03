@@ -247,6 +247,40 @@ img {
   margin-right: auto;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 767.8px) {
+  .hero-title {
+    width: 360px;
+    height: 84px;
+    left: 60px;
+    top: 178px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    /* or 162% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+@media screen and (max-width: 1199.8px) {
+  .hero-title {
+    width: 360px;
+    height: 84px;
+    left: 204px;
+    top: 198px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    /* or 162% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
 
 .hero {
   background-color: #2f303a;
@@ -342,6 +376,7 @@ img {
 @media screen and (max-width: 767.8px) {
   .header {
     width: 100%;
+    justify-content: space-between;
   }
 }
 
@@ -1277,7 +1312,7 @@ input {
   position: fixed;
   top: 0;
   left: 0;
-  width: 480px;
+  width: 100vh;
   height: 100vh;
   padding: 48px 40px;
   background-color: #FFFFFF;
