@@ -654,7 +654,6 @@ img {
 }
 @media screen and (max-width: 1199.8px) {
   .about-list {
-    max-width: 354px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
