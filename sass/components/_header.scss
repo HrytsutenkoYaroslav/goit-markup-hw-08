@@ -1,10 +1,15 @@
 .header {
     display: flex;
     align-items: center;
-    
+   
     @media screen and (min-width:$tablet){
+      
       display: flex;
       justify-content: space-between;
+    }
+    @media screen and (max-width:767.8px) {
+      width: 100%;
+
     }
   }
 .studio-header {
