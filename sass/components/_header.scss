@@ -2,7 +2,10 @@
     display: flex;
     align-items: center;
     
-  
+    @media screen and (min-width:$tablet){
+      display: flex;
+      justify-content: space-between;
+    }
   }
 .studio-header {
     color: #000000;
