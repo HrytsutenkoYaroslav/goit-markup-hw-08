@@ -80,19 +80,25 @@ img {
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
-    margin-left: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    margin-left: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    display: block;
     margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -261,6 +267,8 @@ img {
   padding-right: 32px;
   min-width: 216px;
   min-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero {
@@ -574,10 +582,21 @@ ul.auth-nav {
 
 .about {
   padding-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .about-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 @media screen and (max-width: 767.8px) {
@@ -635,6 +654,8 @@ ul.auth-nav {
 .work-header {
   margin-top: 0px;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .work-list {
@@ -653,6 +674,7 @@ ul.auth-nav {
   height: 120px;
   background-color: #f5f4fa;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   border-radius: 4px;

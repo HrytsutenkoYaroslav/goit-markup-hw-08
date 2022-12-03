@@ -15,9 +15,19 @@
   }
   .about {
     padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width:768px) { 
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
   }
   .about-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 
     @media screen and (max-width:767.8px) { 

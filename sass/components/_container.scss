@@ -12,19 +12,27 @@ $desktop:1200px;
 
   @media screen and (min-width:$mobile) { 
     width: $mobile;
-    margin-left: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
     
   }
   @media screen and (min-width:$tablet) { 
     width: $tablet;
-    margin-left: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    
     
   }
 
 
   @media screen and (min-width:$desktop) { 
     width: $desktop;
+    display: block;
     margin-left: auto;
+    margin-right: auto ;
+    
   }
   
 }

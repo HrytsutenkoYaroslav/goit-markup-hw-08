@@ -40,6 +40,8 @@
   .work-header {
     margin-top: 0px;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .work-list {
     display: flex;
@@ -55,9 +57,11 @@
     height: 120px;
     background-color: #f5f4fa;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    
 
     
     
