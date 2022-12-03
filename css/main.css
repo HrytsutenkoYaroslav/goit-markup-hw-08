@@ -104,7 +104,7 @@ img {
 
 .section {
   padding-top: 60px;
-  padding-bottom: 6px;
+  padding-bottom: 60px;
   display: block;
   margin: 0 auto;
 }
@@ -189,6 +189,8 @@ img {
 @media screen and (max-width: 1199px) {
   .btn-submit {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -330,7 +332,6 @@ img {
 .header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .studio-header {
@@ -444,6 +445,11 @@ img {
 .auth-nav {
   display: flex;
   margin-left: 93px;
+}
+@media screen and (max-width: 767.8px) {
+  .auth-nav {
+    display: none;
+  }
 }
 
 .auth-nav .item + .item {
@@ -649,13 +655,49 @@ img {
 }
 
 .work-div {
-  width: 270px;
+  width: 100%;
   height: 120px;
   background-color: #f5f4fa;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+}
+@media screen and (min-width: 480px) {
+  .work-div {
+    width: 100%;
+    height: 120px;
+    background-color: #f5f4fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .work-div {
+    width: 100%;
+    height: 120px;
+    background-color: #f5f4fa;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-div {
+    width: 1200px;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
 }
 
 .portfolio p {
@@ -746,6 +788,11 @@ img {
   justify-content: center;
   gap: 10px;
   margin-top: 16px;
+}
+@media screen and (max-width: 1199.8px) {
+  .social-list {
+    margin-top: 0px;
+  }
 }
 
 .social-link {
@@ -1008,7 +1055,7 @@ input {
   text-transform: uppercase;
   color: #ffffff;
 }
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1199.8px) {
   .form-header {
     text-align: center;
   }
@@ -1100,6 +1147,8 @@ input {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer .footer-header {
   font-weight: 700;
@@ -1114,13 +1163,25 @@ input {
   display: flex;
   align-items: baseline;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.8px) {
+  .footer .footer-divs {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 767.8px) {
   .footer .footer-divs {
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
   }
 }
 
@@ -1128,13 +1189,37 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 70px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .div1 {
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .div1 {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 70px;
+    text-align: center;
+  }
 }
 
 .div2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .div2 {
+    margin: 0px;
+  }
 }
 
 .foot-link {
@@ -1156,9 +1241,11 @@ input {
   z-index: 999;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+  display: flex;
 }
 @media screen and (min-width: 768px) {
   .menu-container {
+    width: 768px;
     display: none;
   }
 }
@@ -1267,12 +1354,13 @@ input {
 .menu-toggle:hover, .menu-toggle:focus {
   fill: #2196F3;
 }
-
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .menu-toggle {
+    width: 100%;
     display: none;
   }
 }
+
 .mobile-menu__link {
   color: #212121;
 }
@@ -1411,12 +1499,15 @@ input {
 
 .subscribe {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 480px) {
   .subscribe {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 60px;
   }
 }
 @media screen and (min-width: 1200px) {

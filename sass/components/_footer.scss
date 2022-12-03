@@ -8,6 +8,8 @@
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 
   
 
@@ -25,27 +27,59 @@
   display: flex;
   align-items: baseline;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width:1199.8px) { 
+    width: $tablet;
+    display: flex;
+    flex-wrap: wrap;
 
-
-  @media screen and (max-width:1199px) { 
+    
+  }
+  
+  @media screen and (max-width:767.8px) { 
     width: 100%;
     display: flex;
 flex-direction: column;
 flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
     
   }
   
 }
 }
+
 .div1 {display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  @media screen and (min-width:768px) {margin: 0px;}
+
+  
+  @media screen and (min-width:$desktop) { 
+    width: $desktop;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-right: 70px;
+  text-align: center;
   
 }
+  }
+  
 .div2 {display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  @media screen and (min-width:768px) {margin: 0px;}
+  
+    
+  
 
 }
 .foot-link {
@@ -54,3 +88,4 @@ flex-wrap: wrap;
 .foot-icon {
   fill: #ffffff;
 }
+
