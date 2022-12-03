@@ -4,6 +4,11 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   padding-top: 83px;
 }
+@media screen and (max-width: 767.8px) {
+  body {
+    padding-top: 60px;
+  }
+}
 
 h1,
 h2,
