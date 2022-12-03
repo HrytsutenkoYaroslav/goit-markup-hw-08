@@ -642,6 +642,11 @@ img {
     margin-right: auto;
   }
 }
+@media screen and (max-width: 767.8px) {
+  .about {
+    padding-left: -40px;
+  }
+}
 
 .about-list {
   display: flex;
@@ -743,7 +748,7 @@ img {
 }
 @media screen and (min-width: 480px) {
   .work-div {
-    width: 100%;
+    width: 450px;
     height: 120px;
     background-color: #f5f4fa;
     display: flex;
@@ -1549,9 +1554,10 @@ input {
     width: 450px;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.8px) {
   .input-footer {
     margin-bottom: 20px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {

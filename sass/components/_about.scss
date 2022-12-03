@@ -23,13 +23,17 @@
       margin-right: auto;
       
     }
+    @media screen and (max-width:767.8px) {
+
+      
+    }
   }
   .about-list {
     display: flex;
     gap: 30px;
 
     @media screen and (max-width:1199.8px) { 
-      width: 100%;
+      max-width: 354px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -38,7 +42,7 @@
     }
 
     @media screen and (max-width:767.8px) { 
-      width: 100%;
+      max-width: 450px;
     
       justify-content: center;
       text-align: center;

@@ -42,7 +42,13 @@ body {
     list-style: none;
   }
   .li-width {
-    width: 270px;
+width: 450px;
+
+    @media screen and (min-width:$tablet){
+      width: 354px;
+    }
+    @media screen and (min-width:$desktop){
+    width: 270px;}
   }
 
   img {display: block;
