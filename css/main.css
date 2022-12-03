@@ -637,8 +637,8 @@ img {
 @media screen and (min-width: 768px) {
   .about {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 @media screen and (max-width: 767.8px) {
@@ -654,13 +654,15 @@ img {
 }
 @media screen and (max-width: 1199.8px) {
   .about-list {
+    max-width: 354px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 14px;
+    padding-right: 14px;
     gap: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 @media screen and (max-width: 767.8px) {
@@ -756,10 +758,6 @@ img {
     background-color: #f5f4fa;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    gap: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
