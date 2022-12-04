@@ -95,6 +95,10 @@ img {
 @media screen and (min-width: 480px) {
   .container {
     min-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -102,11 +106,17 @@ img {
     width: 768px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -114,7 +124,8 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 1200px) {
   .section {
@@ -326,7 +337,7 @@ img {
   margin: 0 auto;
   text-align: center;
   padding: 118px 0;
-  max-width: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -638,9 +649,8 @@ img {
 }
 @media screen and (min-width: 768px) {
   .about {
-    display: block;
-    margin-left: 0px;
-    margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 767.8px) {
@@ -656,8 +666,10 @@ img {
 }
 @media screen and (max-width: 1199.8px) {
   .about-list {
-    max-width: 354px;
+    max-width: 350px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     padding-left: 0px;
     padding-right: 0px;
@@ -668,7 +680,7 @@ img {
 }
 @media screen and (max-width: 767.8px) {
   .about-list {
-    max-width: 450px;
+    width: 450px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -717,9 +729,10 @@ img {
 }
 @media screen and (max-width: 767.8px) {
   .team-list {
-    width: 100%;
+    width: 450px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -787,7 +800,7 @@ img {
 
 @media screen and (max-width: 767.8px) {
   .team-icon {
-    width: 450px;
+    width: auto;
   }
 }
 
@@ -1209,13 +1222,29 @@ input {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
-  width: 170px;
+  width: 210px;
   height: 92px;
   justify-content: center;
   align-items: center;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 768px) {
+  .client-link {
+    width: 226px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .client-link {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .client-link:hover, .client-link:focus {
   border-color: #2196f3;

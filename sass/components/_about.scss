@@ -18,9 +18,9 @@
     padding-bottom: 0px;
     
     @media screen and (min-width:768px) { 
-      display: block;
-      margin-left: 0px;
-      margin-right: 0px;
+      display: flex;
+      flex-wrap: wrap;
+      
       
     }
     @media screen and (max-width:767.8px) {
@@ -34,9 +34,10 @@ flex-wrap: wrap;
     gap: 30px;
 
     @media screen and (max-width:1199.8px) { 
-      max-width: 354px;
+      max-width: 350px;
       display: flex;
-
+      flex-wrap: wrap;
+justify-content: center;
       
       
       text-align: center;
@@ -48,7 +49,7 @@ margin-right: 0px;
     }
 
     @media screen and (max-width:767.8px) { 
-      max-width: 450px;
+      width: 450px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
