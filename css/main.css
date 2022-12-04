@@ -657,6 +657,7 @@ img {
   .about {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -666,7 +667,6 @@ img {
 }
 @media screen and (max-width: 1199.8px) {
   .about-list {
-    max-width: 350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -722,6 +722,12 @@ img {
   display: block;
   max-width: 450px;
 }
+@media screen and (max-width: 767.8px) {
+  .team-item {
+    width: 450px;
+    align-items: center;
+  }
+}
 
 .team-list {
   display: flex;
@@ -729,7 +735,7 @@ img {
 }
 @media screen and (max-width: 767.8px) {
   .team-list {
-    width: 450px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -784,6 +790,7 @@ img {
     background-color: #f5f4fa;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
