@@ -87,6 +87,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+
+    
   }
   
   .form-input {
@@ -111,6 +113,23 @@
     letter-spacing: 0.03em;
   
     color: #757575;
+
+    @media screen and (max-width: 1199.8px) {
+
+      width: 346px;
+height: 14px;
+left: 79px;
+top: 567px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+
+letter-spacing: 0.03em;
+    }
   }
   .form-header {
     font-weight: 700;

@@ -79,12 +79,6 @@ ul {
   }
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .container {
   display: block;
   margin-left: auto;
@@ -815,9 +809,22 @@ img {
   }
 }
 
-@media screen and (max-width: 767.8px) {
+@media screen and (min-width: 480px) {
   .team-icon {
-    width: auto;
+    width: 450px;
+    height: 460px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team-icon {
+    width: 354px;
+    height: 374px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-icon {
+    width: 270px;
+    height: 260px;
   }
 }
 
@@ -1182,6 +1189,20 @@ input {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+@media screen and (max-width: 1199.8px) {
+  .form-input-text {
+    width: 346px;
+    height: 14px;
+    left: 79px;
+    top: 567px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+  }
 }
 
 .form-header {
