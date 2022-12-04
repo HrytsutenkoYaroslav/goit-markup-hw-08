@@ -37,11 +37,11 @@ flex-wrap: wrap;
       max-width: 354px;
       display: flex;
 
-      flex-wrap: wrap;
+      
       
       text-align: center;
-padding-left: 14px;
-padding-right: 14px;
+padding-left: 0px;
+padding-right: 0px;
 gap: 30px;
 margin-left: 0px;
 margin-right: 0px;
@@ -50,7 +50,7 @@ margin-right: 0px;
     @media screen and (max-width:767.8px) { 
       max-width: 450px;
       display: flex;
-      
+      flex-wrap: wrap;
       justify-content: center;
       text-align: center;
       

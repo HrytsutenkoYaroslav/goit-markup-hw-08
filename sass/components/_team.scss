@@ -1,7 +1,8 @@
 .team {
     background-color: #f5f4fa;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .team h3 {
     font-weight: 500;
@@ -26,20 +27,28 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     display: block;
-    margin: auto;
+    max-width: 450px;
+    
   }
   .team-list {
     display: flex;
     gap: 30px;
+    
     @media screen and (max-width:767.8px) { 
       width: 100%;
-      display: inline;
+      display: flex;
+      flex-direction: column;
       
     }
+    @media screen and (min-width:768px) {width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;}
     @media screen and (max-width:1199.8px) { 
       width: 100%;
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       
     }
 
@@ -91,4 +100,9 @@
       
     }
     
+  }
+  .team-icon {
+
+    @media screen and (max-width:767.8px) 
+    {width: 450px;}
   }
