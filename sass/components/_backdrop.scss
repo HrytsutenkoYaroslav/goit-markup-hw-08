@@ -29,6 +29,13 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 300ms ease-in-out;
+
+    @media screen and (max-width:1199.8px) {
+      width: 450px;
+      height: 609px;
+
+    }
+
   }
   .backdrop.is-hidden .modal {
     transform: translate(-50%, -70%);

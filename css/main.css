@@ -222,6 +222,11 @@ img {
   margin-left: 490px;
   margin-top: 8px;
 }
+@media screen and (max-width: 1199.8px) {
+  .button-close {
+    margin-left: 412px;
+  }
+}
 .button-close:hover {
   fill: #2196f3;
   cursor: pointer;
@@ -660,6 +665,11 @@ img {
     justify-content: center;
   }
 }
+@media screen and (max-width: 1199.8px) {
+  .about {
+    padding-bottom: 60px;
+  }
+}
 
 .about-list {
   display: flex;
@@ -721,9 +731,19 @@ img {
   border-radius: 0px 0px 4px 4px;
   display: block;
 }
-@media screen and (max-width: 1199.8px) {
+@media screen and (min-width: 480px) {
+  .team-item {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
   .team-item {
     width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-item {
+    width: 270px;
   }
 }
 
@@ -956,6 +976,12 @@ img {
   border-radius: 4px;
   transition: transform 300ms ease-in-out;
 }
+@media screen and (max-width: 1199.8px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -70%);
@@ -1065,6 +1091,11 @@ img {
   margin-left: 41px;
   outline: none;
 }
+@media screen and (max-width: 1199.8px) {
+  .form-input {
+    width: 370px;
+  }
+}
 .form-input:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
@@ -1086,6 +1117,11 @@ img {
   padding-right: 16px;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+@media screen and (max-width: 1199.8px) {
+  .form-field-area {
+    width: 370px;
+  }
 }
 
 .form-field-area::-moz-placeholder {
@@ -1357,7 +1393,7 @@ input {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vh;
+  width: 100vw;
   height: 100vh;
   padding: 48px 40px;
   background-color: #FFFFFF;

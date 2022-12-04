@@ -80,6 +80,11 @@
     height: 30px;
     margin-left: 490px;
     margin-top: 8px;
+
+
+    @media screen and (max-width:1199.8px) {
+      margin-left: 412px;
+    }
     &:hover {
         fill: #2196f3;
         cursor: pointer;

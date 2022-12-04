@@ -34,6 +34,11 @@
     border-radius: 4px;
     margin-left: 41px;
     outline: none;
+
+    @media screen and (max-width:1199.8px) {
+
+      width: 370px;
+    }
     
     &:focus {
       border: 1px solid #2196f3;
@@ -56,6 +61,10 @@
     padding-right: 16px;
     padding-top: 12px;
     padding-bottom: 12px;
+
+    @media screen and (max-width:1199.8px) {
+      width: 370px;
+    }
   }
   .form-field-area::placeholder {
     font-weight: 400;
@@ -82,6 +91,8 @@
   
   .form-input {
     padding-left: 42px;
+
+    
   }
   
   input {

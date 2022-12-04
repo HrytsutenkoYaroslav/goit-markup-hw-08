@@ -29,6 +29,9 @@ flex-wrap: wrap;
 justify-content: center;
       
     }
+    @media screen and (max-width:1199.8px) {
+      padding-bottom: 60px;;
+    }
   }
   .about-list {
     display: flex;
