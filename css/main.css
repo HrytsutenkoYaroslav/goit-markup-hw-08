@@ -66,7 +66,7 @@ ul {
 }
 
 .li-width {
-  width: 450px;
+  max-width: 450px;
 }
 @media screen and (min-width: 768px) {
   .li-width {
@@ -454,7 +454,6 @@ ul {
     margin-left: 15px;
   }
 }
-
 .logo-footer {
   margin-bottom: 20px;
   margin-left: 0px;
@@ -696,7 +695,7 @@ ul {
 }
 @media screen and (max-width: 767.8px) {
   .about-list {
-    width: 450px;
+    max-width: 450px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -739,7 +738,7 @@ ul {
 }
 @media screen and (min-width: 480px) {
   .team-item {
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -801,7 +800,7 @@ ul {
 }
 
 .work-div {
-  width: 450px;
+  max-width: 450px;
   height: 120px;
   background-color: #f5f4fa;
   display: flex;
@@ -832,7 +831,7 @@ ul {
 
 @media screen and (min-width: 480px) {
   .team-icon {
-    width: 450px;
+    max-width: 450px;
     height: 460px;
   }
 }
@@ -1006,7 +1005,7 @@ ul {
 }
 @media screen and (max-width: 1199.8px) {
   .modal {
-    width: 450px;
+    max-width: 450px;
     height: 609px;
   }
 }
@@ -1687,7 +1686,7 @@ input {
 }
 @media screen and (min-width: 480px) {
   .input-footer {
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (max-width: 1199.8px) {

@@ -52,7 +52,7 @@ ul {
 }
 
 .li-width {
-  width: 450px;
+  max-width: 450px;
 }
 @media screen and (min-width: 768px) {
   .li-width {
