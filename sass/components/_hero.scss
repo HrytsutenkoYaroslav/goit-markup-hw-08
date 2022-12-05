@@ -143,7 +143,9 @@ width: 100%;
     @media screen and (min-width: 1200px) {
        height: 600px; 
        padding: 200px 0;
-       background-image: 
+       background-image: linear-gradient(to right,
+       rgba(47, 48, 58, 0.4),
+       rgba(47, 48, 58, 0.4)),
       url("../images/herobackground.jpg");
 
 
