@@ -26,6 +26,16 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (max-width: 1199.8px) {
+
+      font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  
+  letter-spacing: 0.02em;
+    }
     &:hover {
       color: var(--accent-color);
     }
