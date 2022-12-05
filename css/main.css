@@ -829,6 +829,10 @@ ul {
   }
 }
 
+.team-icon {
+  max-width: 100%;
+}
+
 .portfolio p {
   color: var(--primary-text-color);
   font-size: 16px;
@@ -1576,7 +1580,8 @@ input {
 
 .image {
   position: relative;
-  height: 294px;
+  max-width: 100%;
+  max-height: 100%;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
