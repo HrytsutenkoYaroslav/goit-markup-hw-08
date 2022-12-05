@@ -448,7 +448,11 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   display: block;
-  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .site-logo {
+    margin-left: 15px;
+  }
 }
 
 .logo-footer {
