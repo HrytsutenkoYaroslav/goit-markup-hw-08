@@ -30,7 +30,7 @@
     display: block;
     
     @media screen and (min-width:480px) { 
-      max-width: 450px;
+      width: 450px;
       
     }
     @media screen and (min-width:768px) { 
@@ -132,21 +132,19 @@
   }
   .team-icon {
     @media screen and (min-width:480px) { 
-      max-width: 450px;
-      height: 460px;
+      
+      
     }
     @media screen and (min-width:768px) { 
       
-      width: 354px;
-      height: 374px;
+      
       
     }
   
   
     @media screen and (min-width:1200px) { 
       
-      width: 270px;
-      height: 260px;
+      
     }
     
   }
