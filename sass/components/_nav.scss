@@ -5,10 +5,15 @@
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
-   margin-left: 93px;
+   
    @media screen and (min-width:480px) {
     margin-left: 0px;
     
+   }
+   @media screen and (min-width:768px) {
+    
+
+
    }
   
    

@@ -467,7 +467,6 @@ ul {
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
-  margin-left: 93px;
 }
 @media screen and (min-width: 480px) {
   .nav {
@@ -1694,7 +1693,7 @@ input {
 @media screen and (max-width: 1199.8px) {
   .input-footer {
     margin-bottom: 20px;
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
