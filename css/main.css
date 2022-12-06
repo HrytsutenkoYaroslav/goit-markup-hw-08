@@ -436,11 +436,7 @@ ul {
   position: fixed;
   top: 0;
   z-index: 10;
-}
-@media screen and (min-width: 1200px) {
-  .head-border {
-    width: 100%;
-  }
+  width: 100%;
 }
 
 .site-logo {
@@ -549,6 +545,12 @@ ul {
 @media screen and (min-width: 1200px) {
   .nav.list {
     margin-left: 93px;
+  }
+}
+
+@media screen and (max-width: 767.8px) {
+  ul.nav.list {
+    display: none;
   }
 }
 
@@ -1575,6 +1577,11 @@ input {
   .menu-toggle {
     width: 100%;
     display: none;
+  }
+}
+@media screen and (max-width: 767.8px) {
+  .menu-toggle {
+    margin-left: auto;
   }
 }
 
