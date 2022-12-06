@@ -393,7 +393,6 @@ ul {
 }
 @media screen and (max-width: 767.8px) {
   .header {
-    justify-content: center;
     height: 60px;
   }
 }
@@ -435,9 +434,13 @@ ul {
 
 .head-border {
   position: fixed;
-  width: 100%;
   top: 0;
   z-index: 10;
+}
+@media screen and (min-width: 1200px) {
+  .head-border {
+    width: 100%;
+  }
 }
 
 .site-logo {
@@ -1681,7 +1684,7 @@ input {
 }
 @media screen and (min-width: 1200px) {
   .input-footer {
-    width: 358px;
+    max-width: 358px;
     height: 50px;
     background-color: #2f303a;
     color: rgba(255, 255, 255, 0.6);
